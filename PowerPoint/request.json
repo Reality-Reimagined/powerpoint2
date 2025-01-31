@@ -1,0 +1,7 @@
+
+
+curl -X POST \
+    -H "Authorization: Bearer $(ya29.a0AXeO80TWQMz8y5aAKsQCT9_WvB1BlAKIkjtW69Nq2GdRnj26EdlquXJzZGl1ruy4MIr0kUHN3C_Nq_VVh8Uo7Bi5_G4UXdhCUoC_kSMITyeBaOwiejUZgsKexsNhMNtsnXFmcI4GV1aFDcX-fYLxjbE8qvifhuCN_fNgBp0bAvWlFNVsT0iqSPEzincApTEObbZw6EdabY7CX5fVFHnQJNsdplBTMZauB2KSAAynGTNFpUjDqMN2fF6w7aEBTzkS_FKOELi_2gxk8Wm-PGCqxr3ix61uf0gXWVXOefwDvgC1B7p2f5cm0pvl4EzISQZC9v12uf_CxWMWcNA_dd4kyOd2z_tvWerivLB7CGuageR0dyudcpStqkyfkO0pQ1v4NtogNyarHGtqqVlg4flaDOVatUoM30qwhAaCgYKAaESARASFQHGX2MiP2WUW9coGnXPQr7sfITCJg0425)" \
+    -H "Content-Type: application/json; charset=utf-8" \
+    -d @request.json \
+    "https://us-central1-aiplatform.googleapis.com/v1/projects/gen-lang-client-0274799094/locations/us-central1/publishers/google/models/imagen-3.0-fast-generate-001:predict"
